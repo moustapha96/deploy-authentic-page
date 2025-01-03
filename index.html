@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AuthenticPage - Instant Document Authentication and Verification</title>
+
+  <!-- Favicon -->
+
+  <link rel="icon" href="/assets/favicon-C2s9d12l.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicone_128-BPCMhg97.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicone_128-BPCMhg97.png">
+  <link rel="icon" type="image/svg+xml" href="/assets/logo-authentic-svg-CkemCqZ5.svg" />
+
+
+  <!-- Icône pour appareils iOS -->
+  <link rel="apple-touch-icon" href="/assets/favicone_128-BPCMhg97.png" />
+
+  <!-- Icône pour Windows -->
+  <meta name="msapplication-TileImage" content="/assets/favicone_128-BPCMhg97.png" />
+
+  <!-- Couleur de la barre d'adresse dans les navigateurs mobiles -->
+  <meta name="theme-color" content="#ffffff" />
+
+
+  <link rel="shortcut icon" href="/assets/favicon-C2s9d12l.ico">
+
+  <link rel="manifest" href="/public/site.webmanifest">
+  <link rel="canonical" href="https://www.authenticpage.com/" />
+
+  <link rel="alternate" hreflang="fr" href="https://www.authenticpage.com/" />
+  <link rel="alternate" hreflang="en" href="https://www.authenticpage.com/" />
+
+  <link rel="preload" href="/assets/logo_528-C7l6edt1.png" as="image">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="en">
+  <meta name="author" content="AuthenticPage">
+  <meta name="geo.region" content="USA">
+
+
+  <!-- Meta tags for SEO -->
+  <meta name="description"
+    content="AuthenticPage: Get original documents directly from issuers in seconds. Verify IDs, driver's licenses, diplomas, bank statements, and more without third-party fees." />
+  <meta name="keywords"
+    content="adn , authentic , page , ADN , authentication document number, authentication, document authentication, document verification, ID authentication, diploma verification, bank statement verification, instant document retrieval" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="AuthenticPage - Instant Document Authentication" />
+  <meta property="og:description"
+    content="Get original documents from issuers in seconds. Verify IDs, diplomas, bank statements without third-party fees." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.authenticpage.com/" />
+  <meta property="og:image" content="https://www.authenticpage.com/public/logo_528.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://www.authenticpage.com/" />
+  <meta property="twitter:title" content="AuthenticPage - Instant Document Authentication" />
+  <meta property="twitter:description"
+    content="Get original documents from issuers in seconds. Verify IDs, diplomas, bank statements without third-party fees." />
+  <meta property="twitter:image" content="/public/logo_528.png" />
+
+  <style>
+    #splash-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: white;
+      display: flex;
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      opacity: 1;
+      transition: opacity 0.5s ease-out;
+    }
+
+    #splash-screen.remove {
+      opacity: 0;
+      pointer-events: none;
+    }
+  </style>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AuthenticPage",
+    "description": "A non-AI ID and Document Authentication and Verification Company that enables you to get any type of documents from the issuer.",
+    "url": "https://www.authenticpage.com",
+    "logo": "https://www.authenticpage.com/public/logo_528.png",
+    "potentialAction": {
+          "@type": "SearchAction",
+            "target": "https://www.authenticpage.com/search?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+        },
+    "sameAs": [
+      "https://www.facebook.com/AuthenticPage",
+      "https://www.instagram.com/authenticpageusa/",
+      "https://x.com/i/flow/login?redirect_after_login=%2Fauthenticpage",
+      "https://www.linkedin.com/in/authentic-page-2274b5340/"
+    ]
+  }
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7YRHWY6LY8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-7YRHWY6LY8');
+  </script>
+
+  <script type="module" crossorigin src="/assets/index-CgyW2K2E.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/vendor-Cftxg18u.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-DTLFqyRT.css">
+<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+
+<body>
+  <div id="root"></div>
+  <div id="splash-screen" aria-hidden="true">
+    <img alt="Authentic Page ADN" src="/assets/logo_528-C7l6edt1.png" style="height: 30%;" />
+  </div>
+
+
+  <script>
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        const splashScreen = document.getElementById('splash-screen');
+        if (splashScreen) {
+          splashScreen.classList.add('remove');
+          setTimeout(() => {
+            splashScreen.style.display = 'none';
+          }, 100);
+        }
+      }, 200);
+    });
+  </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+# robots.txt for https://www.authenticpage.com/
+
+# Allow all robots full access by default
+User-agent: *
+Allow: /
+
+# Disallow access to admin pages
+Disallow: /admin/
+Disallow: /wp-admin/
+
+# Disallow access to search results pages
+Disallow: /search
+
+# Disallow access to thank you or confirmation pages
+Disallow: /thank-you
+Disallow: /order-confirmation
+
+# Disallow access to any temporary or development folders
+Disallow: /temp/
+Disallow: /dev/
+
+# Prevent indexing of files with certain extensions
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+Disallow: /*.xls$
+Disallow: /*.xlsx$
+
+# Sitemap location
+Sitemap: https://www.authenticpage.com/sitemap.xml
+
+# Crawl-delay directive (optional, use if you want to limit crawl rate)
+# Crawl-delay: 10
